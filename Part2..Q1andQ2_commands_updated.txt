@@ -16,6 +16,6 @@ Question 2. Commands:
 2. git merge Markdown                 (to merge the Markdown branch to main)
 3. git push                           (to push the merge up to github)
 4. git push origin --delete Markdwon  (Deletes the branch Markdown)
-5. git log --online                   (prints the log of actions, snapshot attached)
+5. git log --oneline                  (prints the log of actions, snapshot attached)
 
 
