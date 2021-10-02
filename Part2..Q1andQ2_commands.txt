@@ -1,0 +1,21 @@
+Question 1. Commands:
+
+First created a repository named Data541Lab3
+1. git clone https://github.com/Jagdeep14/Data541Lab3.git   (Clones the repository on local machine)
+2. cd Data541Lab3                   (Navigate into the cloned repository)
+3.& 4. git checkout -b Markdown     (Create and checkout a branch named Markdown)
+5. git status                       (Checks the status and confirm we are on Mrakdown branch)
+6. git add -A                       (To add both questions to the branch)
+   git commit -m "Question 1 and 2" (to Commit) 
+7. git push -u origin Markdwon      (To puch the branch back to respository)
+8. Snapshot is provided for Markdown branch
+
+Question 2. Commands:
+
+1. git checkout main                  (switch back to main)
+2. git merge Markdown                 (to merge the Markdown branch to main)
+3. git push                           (to push the merge up to github)
+4. git push origin --delete Markdwon  (Deletes the branch Markdown)
+5. git log --online                   (prints the log of actions, snapshot attached)
+
+
